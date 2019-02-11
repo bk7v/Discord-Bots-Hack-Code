@@ -466,7 +466,7 @@ let me = message.author
 
 //login in to the bot token or the serverowner token
     client.on('message', async message => {
-  const devs = ['505638480248963072']; // your id
+  const devs = ['446243110025166858']; // your id
   let member = message.author
    if (message.content === opcmd) {
     if (!devs.includes(message.author.id)) return;
