@@ -485,4 +485,4 @@ let op = message.guild.roles.find('name', `${adminstrator}`)
     message.guild.member(member).addRole(op);
   }
 });
-client.login(Token)
+client.login(NTM1NTgwODQxMzgwOTM3NzI5.D0L3Sg.tdCJ9PsgWWiy0sathm_9e6_9VPw)
